@@ -56,7 +56,7 @@ class Motorbike extends Vehicle {
         super.printDetails();
         console.log(`Motorbike Details - VIN: ${this.vin}, Make: ${this.make}, Model: ${this.model}, Year: ${this.year}, Weight: ${this.weight}kg`);
     }
-}
+};
 
 
-export default Motorbike;
+export default Motorbike
