@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 
-const Vehicle = require('./Vehicle');
+const Vehicle = require('./Vehicle'); 
 const Wheel = require('./Wheel');
 
 class Motorbike extends Vehicle {

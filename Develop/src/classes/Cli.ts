@@ -73,7 +73,7 @@ class Cli {
         const car = new Car(
           answers.color,
           answers.make,
-          answers.model,
+          answers.model,  
           answers.year,
           parseInt(answers.weight),
           parseInt(answers.wheels),
@@ -105,6 +105,7 @@ class Cli {
           answers.make,
           answers.model,
           answers.year,
+
           parseInt(answers.weight),
           parseInt(answers.topspeed),
           parseInt(answers.towingCapacity),

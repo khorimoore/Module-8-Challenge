@@ -52,7 +52,7 @@ class Motorbike extends Vehicle {
     }
 
 
-    override printDetails(): void {
+    override printDetails(): void { 
         super.printDetails();
         console.log(`Motorbike Details - VIN: ${this.vin}, Make: ${this.make}, Model: ${this.model}, Year: ${this.year}, Weight: ${this.weight}kg`);
     }

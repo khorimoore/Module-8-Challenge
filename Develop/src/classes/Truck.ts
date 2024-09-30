@@ -8,12 +8,12 @@ class Vehicle {
   weight: number;
   topSpeed: number;
 
-  constructor(vin: string, color: string, make: string, model: string, year: number, weight: number, topSpeed: number) {
+  constructor(vin: string, color: string, make: string, model: string, year: number, weight: number, topSpeed: number) {  
       this.vin = vin;
       this.color = color;
       this.make = make;
       this.model = model;
-      this.year = year;
+      this.year = year; 
       this.weight = weight;
       this.topSpeed = topSpeed;
   }
