@@ -63,7 +63,7 @@ class Truck extends Vehicle implements AbleToTow {
       super.printDetails();  
       console.log(`Truck Details - VIN: ${this.vin}, Make: ${this.make}, Model: ${this.model}, Year: ${this.year}, Weight: ${this.weight}kg, Top Speed: ${this.topSpeed}km/h`);
   }
-}
+};
 
 
-export default Truck;
+export default Truck
